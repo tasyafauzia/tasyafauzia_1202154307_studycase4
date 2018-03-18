@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">tasyafauzia_1202154307_studycase4</string>
+    <string name="list_nama_mahasiswa">List Nama Mahasiswa</string>
+    <string name="mulai_asynctask">Mulai AsyncTask</string>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tasyafauzia.android.tasyafauzia_1202154307_studycase4.Pencarigambar">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/progressbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:fontFamily="casual"
+        android:text="Cari Gambar"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/editUrl"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:fontFamily="casual"
+        android:hint="Masukkan URL Gambar" />
+
+    <Button
+        android:id="@+id/buttoncari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editUrl"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:fontFamily="casual"
+        android:text="Klik untuk mencari gambar"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp" />
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/gambar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/buttoncari"
+        android:layout_toEndOf="@+id/progressbar" />
+
+</RelativeLayout>
